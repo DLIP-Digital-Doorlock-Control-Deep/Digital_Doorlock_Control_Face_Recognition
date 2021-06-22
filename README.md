@@ -36,7 +36,10 @@ First, Open the Terminal in Jetson. type the following command for Serial Commun
 After that, you just open the face_recog_realtime.py file
 Type the followings in the terminal.
 '''
-cd DLIP
+
+<pre><blockquote>
+\<p>cd DLIP\</p>
+\<\/blockquote\>
 '''
 (type the folder name that the face_recog_realtime.py and other yml and xml files are located. For our case, the folder name was DLIP)
 #### python3 face_recog_realtime.py 
