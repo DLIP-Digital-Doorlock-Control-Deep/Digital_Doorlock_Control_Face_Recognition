@@ -19,7 +19,24 @@ We have succesfully built this system in above environment. You have to install 
 
 ## Usage
 
-### Jetson Nano 
-cd DLIP
-python3 face_recog_realtime.py
+### Windows
+Before running real-time recognition system, you should train the authorized persons face in Windows. 
 
+
+### Jetson Nano 
+After move the face_recog_realtime.py file and face-trainer.yml and haarcascade_frontalface_default.xml file to Jetson nano,
+Now everything is ready!
+
+You should connect all the devices(Arduino Nano and Webcam) to Jetson Nano before run this code.
+
+First, Open the Terminal in Jetson. type the following command for Serial Communication
+
+## sudo chmod a+rw /dev/ttyACM0
+After that, you just open the face_recog_realtime.py file
+Type the followings in the terminal.
+
+## cd DLIP           (type the folder name that the face_recog_realtime.py and other yml and xml files are located. For our case, the folder name was DLIP)
+## python3 face_recog_realtime.py 
+
+This is it! 
+Good Luck
