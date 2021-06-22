@@ -34,7 +34,8 @@ After that, run "part2_face_training.py", it will output "face-trainner.yml" fil
 "part3_face_recog_realtime.py".
 
 Before run the "part3_face_recog_realtime.py", check the Arduino Nano COM port number of the system.
-If you run this, the real-time face recognition will be started.
+If you run this, the real-time face recognition will be started. 
+There is code lines, which make a video output when the real-time system is running. If you don't want to make an output video, just get rid of it.
 
 
 ### 2. Arduino
@@ -42,12 +43,12 @@ Just compile and Upload the doorLock.ino file into Arduino Uno
 Be aware of Arduino COM port number when you run the program code in Windows
 
 ### 3. Jetson Nano 
-After move the face_recog_realtime.py file and face-trainer.yml and haarcascade_frontalface_default.xml file to Jetson nano,
+After move the "face_recog_realtime.py" file and face-trainer.yml and haarcascade_frontalface_default.xml file to Jetson nano,
 Now everything is ready!
 
 You should connect all the devices(Arduino Nano and Webcam) to Jetson Nano before run this code.
 
-First, Open the Terminal in Jetson. type the following command for Serial Communication
+First, Open the Terminal in Jetson. Type the following command for Serial Communication
 
 
 
