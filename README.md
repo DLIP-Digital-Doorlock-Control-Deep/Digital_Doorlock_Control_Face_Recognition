@@ -13,8 +13,8 @@ HGU
 (Ubuntu for jetson nano board)
 + Hardware: NVIDIA Jetson Nano, Arduino Uno, Logitech C922 Pro Webcam
 + Python: ver 3.8.10 for Windows / ver 3.6.9 for Ubuntu
-+ Numpy: ver 1.20.2 / ver 1.19.3 for Ubuntu
-+ Python PIL library: ver 8.2.0 / ver 5.1.0 for Ubuntu
++ Numpy: ver 1.20.2 for Windows/ ver 1.19.3 for Ubuntu
++ Python PIL library: ver 8.2.0 for Windows/ ver 5.1.0 for Ubuntu
 + OpenCV: ver 4.5.2 (for Windows and Ubuntu)
 
 We have succesfully built this system in above environment. You have to install above or appropriate environments in Windows and Jetson Nano
