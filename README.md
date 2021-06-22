@@ -1,5 +1,6 @@
 # Digital_Doorlock_Control_with_Face_Recognition
-Deep Learning Image Processing(DLIP) Project 4 
+Deep Learning Image Processing(DLIP) Project 4.
+
 This is a Tutorial and guidbook for real running of our system.
 
 Prof. y.k.kim 
